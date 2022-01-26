@@ -9,4 +9,6 @@ spring:
       server:
         git:
           uri: https://github.com/lideratec/config-server.git
-         
+  mvc:
+    pathmatch:
+      matching-strategy: ant-path-matcher         
